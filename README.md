@@ -1,12 +1,16 @@
 # Stock Prediction
 
-RSI = 100 – [100 / ( 1 + (Average of Upward Price Change / Average of Downward Price Change ) ) ]
+We live in this wonderful world with modern technology where we can apply machine learning (ML) and artificial intelligence (AI) into our live. The trend of technology has started for years, our industries are adapting to the technology. 
+In the recent years, our financial plan, retirement, insurance are crucial due to inflation, covid-19 pandemic, and Russa’s war issue. The stock market’s data today contains high uncertaintly and infuenced by exogenous factors. These factors along with emotions, fear, depression, stress or many other causes of human psychology will affect our decision making.  Thus, AI can solve the problems for us, even better than us. 
+So far, 90% of trades is traded by the computer. However, they get control by human behind it. Since AI, does not think or has emotions like us, we need give it years of data, so it can analyze the information. AI can learn where to buy, and where to sell. AI can learn how to go along with the price trend or against it. 
+A normal human trader, takes 5 years to make around 10,000 trades, but in AI, within a week, it can make a million of trades and learns from it. AI can forecast stock prices, give accurate preditions for traders, investors, allowing them to understand the movement of the financial market. AI can help creating strategies that help to achieve greater profits as well with less risk. 
+There are several stages can be identified in the stock market for AI, including three main stages such as stock selection, price forecasting, and stock portfolio optimization stage. Each of these stages plays an important role in obtaining optimal results. 
+# Stock Selection
+The stage of stock selection is very important stage. My goal is picking the right stock to buy. In the order to do that, I plan to use machine learning to run the data of each stock.  The machine learning can use statistic to calculate the mean variance based on selection of each stock. I plan to pull out three recent years of earning report of each stock to do fundamental analysis. I believe this can help me chose which stock is better to hold to invest in long-term. 
+# Price Forecasting
+The price forecasting. I want to use technical analysis for this stage. I will also use python for machine learning to check 3 years data of the stock. Based on the indicators such as RSI, MA slope, SAR slope, support, resistance, or other custom strategy signals, can give me a possible right market signal. Is the price action in an uptrend or downtrend? If it is an uptrend, then we will buy (long) at what price? what is our target price? and what is the stoploss? 
+If it is a downtrend, then we will sell (short) at what price? what is our target price? and what is the stoploss? With machine learning, I will divide the data into train data, test data, and validation data. I want to use classification, and classifier from Sklearn to give the accuracy results on those questions. 
+# Stock Portfolio Optimization
+The last stage is stock portfolio optimization. This stage is based on trading limitations, portfolio size algorithm. I will create a model for the account portfolio. This model can evaluate the performance of the account portfolio base on measuring the expected returns and risks, based on the actual returns of the trading history. The considered variances look for both negative and positive deviations, and other risk measures.
 
-Most SMA(simple moving average) is for swinging or long term holding positions.
-since this is only 3 months data, we can see SMA 100
-If the market price is above SMA 50, it is uptrend, below is downtrend
-
-When we do yearly data set analyze, day chart on 20 years
-"Essentially, a bullish crossover (the 50-day MA moving above the 100-day MA) is called a golden cross 
-and it signals that a new bullish trend is starting."
 
